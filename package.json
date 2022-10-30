@@ -1,0 +1,40 @@
+{
+  "name": "clapingo_backend_task",
+  "version": "1.0.0",
+  "description": "Build APIs using node.js, express.js, mongoose & MongoDB where students can log in, add a teacher to their favorite, remove the teacher from their favorite list.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shashwatsingh22/clapingo_backend_task.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "JWT",
+    "MongoDB",
+    "Mongoose"
+  ],
+  "author": "Shashwat Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shashwatsingh22/clapingo_backend_task/issues"
+  },
+  "homepage": "https://github.com/Shashwatsingh22/clapingo_backend_task#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongo": "^0.1.0",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.0",
+    "morgan": "^1.10.0"
+  }
+}
